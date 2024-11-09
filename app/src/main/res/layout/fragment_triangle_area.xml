@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.TriangleAreaFragment">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/baseInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Base del triángulo"
+            android:inputType="numberDecimal"/>
+
+        <EditText
+            android:id="@+id/heightInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Altura del triángulo"
+            android:inputType="numberDecimal"/>
+
+        <Button
+            android:id="@+id/calculateAreaButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calcular Área"/>
+
+        <TextView
+            android:id="@+id/areaResultView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resultado"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+
+</FrameLayout>
