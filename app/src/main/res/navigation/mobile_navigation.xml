@@ -3,23 +3,38 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_ages">
+
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="com.example.menu_ejercicios.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/navigation_ages"
+        android:name="com.example.menu_ejercicios.ui.AgesFragment"
+        android:label="Ages"
+        tools:layout="@layout/fragment_ages"/>
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.menu_ejercicios.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
-
+        android:id="@+id/navigation_prime"
+        android:name="com.example.menu_ejercicios.ui.PrimeFragment"
+        android:label="Primes"
+        tools:layout="@layout/fragment_prime"/>
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.example.menu_ejercicios.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_composite"
+        android:name="com.example.menu_ejercicios.ui.CompositeCheckFragment"
+        android:label="Composite"
+        tools:layout="@layout/fragment_composite_check"/>
+    <fragment
+        android:id="@+id/navigation_triangle"
+        android:name="com.example.menu_ejercicios.ui.TriangleAreaFragment"
+        android:label="Triangle"
+        tools:layout="@layout/fragment_triangle_area"/>
+    <fragment
+        android:id="@+id/navigation_factors"
+        android:name="com.example.menu_ejercicios.ui.FactorsFragment"
+        android:label="Factors"
+        tools:layout="@layout/fragment_factors"/>
+    <fragment
+        android:id="@+id/navigation_wall"
+        android:name="com.example.menu_ejercicios.ui.WallConstructionFragment"
+        android:label="Wall"
+        tools:layout="@layout/fragment_wall_construction"/>
 </navigation>

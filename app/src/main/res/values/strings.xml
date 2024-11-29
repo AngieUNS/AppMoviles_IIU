@@ -3,6 +3,12 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="title_ages">Ages</string>
+    <string name="title_factors">Factors</string>
+    <string name="title_prime">Prime</string>
+    <string name="title_triangle">Triangle</string>
+    <string name="title_wall">Wall</string>
+    <string name="title_composite">Composite</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
